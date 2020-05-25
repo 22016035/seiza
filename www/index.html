@@ -87,7 +87,7 @@
              text = "うお座"; 
               break;       
           }
-        alert(text);
+        $("#result").text(month+"月"+days+"日生まれの方は"+text+"です");
     }
   </script>
 </head>
@@ -105,6 +105,10 @@
         <input type="text" id="days" class="input-text">
 
         <a class="button" onclick="calculate();">判定!</a>
+
+       <div id="result">
+         
+        
     </section>
   </div> 
 </body>
